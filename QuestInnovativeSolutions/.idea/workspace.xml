@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfc236ce-efeb-4853-bbab-44d1e654a17a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="29eBgwH2PjcMNXQaBQ54HaaipSK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfc236ce-efeb-4853-bbab-44d1e654a17a" name="Default Changelist" comment="" />
+      <created>1653463786128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653463786128</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="336" y="185" key="FileChooserDialogImpl" timestamp="1653463856215">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="336" y="185" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1653463856215" />
+    <state x="252" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1653463808897">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="252" y="254" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1653463808897" />
+  </component>
+</project>

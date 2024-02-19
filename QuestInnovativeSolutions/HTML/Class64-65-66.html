@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="" target="blank" method="post">
+            <fieldset>   <!--group related dates-->
+                <legend>Personal Details</legend>   <!--caption for fieldset-->
+            <label>First Name</label>
+            <input type="text"><br><br><!--Single line input field-->
+            <label>Last Name</label>
+            <input type="text"><br><br>
+            Place <input type="text" ><br><br>
+            </fieldset>
+
+            <!-- radio button  -->
+            <label>Gender</label>
+            <input type="radio" name="gen"><label>Male</label>
+            <input type="radio" name="gen"><label>Female</label>
+            <input type="radio" name="gen"><label>Other</label><br><br>
+
+            <!-- check box -->
+            <label>Languages</label>
+            <input type="checkbox"><label>English</label>
+            <input type="checkbox"><label>Tamil</label>
+            <input type="checkbox"><label>Malayalam</label><br><br>
+
+            <!-- dropdown list  -->
+            <label>UI/UX</label>
+            <select>
+                <option>Select</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Javascript</option>
+                <option>Jquery</option>
+                <option>Bootstrap</option>
+            </select><br><br>
+
+            <!-- textarea  -->
+            <textarea cols="30" rows="10" placeholder="Enter the message"></textarea><br><br>
+
+            <!-- datalist -->
+            <!-- used to get suggestion based on letter we given-->
+            <input list="data">
+            <datalist id="data">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Javascript</option>
+                <option>Jquery</option>
+                <option>Bootstrap</option>
+            </datalist><br><br>
+
+            <!-- password -->
+            <label >Enter the password</label>
+            <input type="password"><br><br>
+
+            <!-- email -->
+            <label>Enter the email</label>
+            <input type="email" placeholder="Email"><br><br>
+
+            <!-- Date -->
+            <label for="">Date of Birth</label>
+            <input type="date"><br><br>
+
+            <!-- file  -->
+            <label for="">Resume</label>
+            <input type="file" multiple><br><br>  <!--Multiple keyword used to add multiple files like add file from the device-->
+
+            <!-- hidden -->
+            <input type="hidden">
+
+            <!-- number -->
+            <label for="">Enter the age</label>
+            <input type="number" min="1" max="100" placeholder="age"><br><br>
+            
+            <!-- readonly -->
+            <!-- default size is 20 and readonly used only to read we can change it -->
+            <input type="text" value="name" size="50" readonly><br><br><!-- default size is 20-->
+            <input type="text" value="name" size="50" disabled><br><br><!-- default size is 20-->
+            
+            <!-- Reset  -->
+            <input type="reset">
+
+            <!-- submit -->
+            <input type="Submit" value="Register">
+
+            <!-- button  -->
+            <input type="button" value="Click">
+
+            <!-- adding YT video in the html  -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FZ_NHjxBN_E" title="YouTube video player" frameborder="0"></iframe>
+
+            <!-- adding google map into html  -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15789.131681365208!2d77.22901879999999!3d8.373806499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1650345851475!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <!-- audio  -->
+            <audio  controls>
+                <source src="" type="audio/mp3">
+            </audio>
+
+            <!-- video  -->
+            <video src="" controls>
+                <source src="" type="video/mp4">
+            </video>
+
+        </form>
+    </body>
+</html>

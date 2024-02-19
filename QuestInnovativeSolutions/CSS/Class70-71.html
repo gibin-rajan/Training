@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table,tr,td,th{
+                border: 3px solid rebeccapurple;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+            table{
+                width: 100%;
+            }
+            td{
+                text-align: center;
+            }
+            th,td{
+                border-bottom: 1px solid black      ;
+            }
+            tr:hover{
+                background-color: brown;
+            }
+            tr:nth-child(even){
+                background-color: cadetblue;
+            }
+            ul{
+                list-style-type: square;
+                /* display: none; */
+            }
+            li{
+                display: block;
+                /* float: left;
+                display: none; */
+                /* display: inline; */
+            }
+            ol{
+                list-style-type: upper-alpha;
+                /* float: left; */
+                float: right;
+            }
+            div{
+                /* position: static; */
+                /* position: relative;
+                left: 30px;
+                left: 25px; */
+                position: fixed;/* top,left ,right,bottom*/
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>This is a paragraph</p>
+        </div>
+        <table>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Place</th>
+            </tr>
+            <tr>
+                <td>abc</td>
+                <td>def</td>
+                <td>hij</td>
+            </tr>
+            <tr>
+                <td>abc</td>
+                <td>def</td>
+                <td>hij</td>
+            </tr>
+            <tr>
+                <td>abc</td>
+                <td>def</td>
+                <td>hij</td>
+            </tr>
+            <tr>
+                <td>abc</td>
+                <td>def</td>
+                <td>hij</td>
+            </tr><tr>
+                <td>abc</td>
+                <td>def</td>
+                <td>hij</td>
+            </tr>
+        </table>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ol>
+    </body>
+</html>
